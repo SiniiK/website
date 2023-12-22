@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+}
+.navsettings {
+    background-color: #092d74;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+.border-blue {
+    border: 2px solid #092d74; 
+}
+figcaption {
+    font-weight: bold;
+    font-size: large;
+}
+p {
+    font-weight: bold;
+    font-size: 20px;
+}
+.gametitle {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Condensed;
+    color: rgb(245, 167, 0);
+    border: 2px solid black;
+    
+}
+.bodyresults {
+    position: relative;
+    background-image: url('../img/league.webp');
+    background-position: center -100px; /* Adjust the background position as needed */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../img/league.webp'); 
+    background-size: cover !important;
+}
+
